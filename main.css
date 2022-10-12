@@ -105,8 +105,9 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: black;
     text-align: left;
+    background-color: white;
     /* background-color:black; */
 }
 [tabindex="-1"]:focus {
@@ -1123,7 +1124,7 @@ body {
     font-weight: 800;
 }
 .header-bar .site-branding a {
-    color: hsl(0, 0%, 100%);
+    color: black;
     text-decoration: none;
 }
 .hamburger-menu {
@@ -1182,7 +1183,7 @@ body {
     overflow: hidden;
     list-style: none;
     transition: all 0.35s;
-    color: hsl(0, 0%, 100%);
+    color:black;
 }
 .site-navigation.show {
     height: auto;
@@ -1209,7 +1210,7 @@ body {
 }
 .site-navigation ul li a {
     display: block;
-    color: #fff;
+    color: #000;
     transition: all 0.35s;
     text-decoration: none;
     font-size: 14px;
@@ -1248,7 +1249,7 @@ body {
     padding-left: 60px;
 } */
     .site-navigation ul li a {
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
 }
 .hero-content {
@@ -1328,7 +1329,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 500;
-    color: hsl(0, 0%, 90%);
+    color: hsl(0, 0%, 0%);
     text-align: center;
 }
 @media screen and (max-width: 992px) {
@@ -1974,7 +1975,7 @@ body {
 }
 .page-header .breadcrumbs li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .main-content {
     margin: 120px 0;
@@ -2394,7 +2395,7 @@ body {
 }
 .blog-page .blog-list-page .blog-content .box-link-date a {
     font-weight: 400;
-    color: #fff;
+    color:#000;
     text-decoration: none;
 }
 .blog-page .blog-list-page .blog-content .entry-content {
@@ -2854,11 +2855,12 @@ body {
 .animation {
     height: 100%;
     width: 100%;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    color: #000;
     overflow: hidden;
 }
 
-#stars {
+/* #stars {
     width: 1px;
     height: 1px;
     background: transparent;
@@ -3355,7 +3357,7 @@ body {
         1870px 223px #fff, 1827px 865px #fff, 1419px 1546px #fff, 1891px 251px #fff,
         374px 1832px #fff, 439px 1183px #fff, 886px 1563px #fff, 555px 1375px #fff, 198px 607px #fff,
         1212px 1487px #fff, 1956px 1990px #fff, 470px 1474px #fff, 205px 1331px #fff;
-}
+} */
 
 #title {
     position: absolute;
